@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UserTest" parallel="false">
+    <test name="RegisterUserTest">
+        <parameter name="path" value="/"/>
+        <classes>
+            <class name="test.java.RegisterUserTest"/>
+        </classes>
+    </test>
+    <test name="LoginUserTest">
+        <parameter name="path" value="/"/>
+        <classes>
+            <class name="test.java.LoginUserTest"/>
+        </classes>
+    </test>
+</suite>
